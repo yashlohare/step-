@@ -2,8 +2,9 @@
 
 This repository now contains multiple palindrome-related Java exercises.
 
-- Root-level files include earlier remote work such as `UC1` and `UC3`.
-- `UC4` through `UC13` in `src/` are standalone files. Each use case contains its own logic and can be compiled independently.
+- All available use cases live in `src/`.
+- Current standalone source files cover `UC1`, `UC3`, and `UC4` through `UC13`.
+- Each use case contains its own logic and can be compiled independently.
 
 ## Compile
 
@@ -11,6 +12,8 @@ Compile any standalone use case from `src/`, for example:
 
 ```powershell
 cd src
+javac UseCase1PalindromeCheckerApp.java
+javac UseCase3PalindromeCheckerApp.java
 javac UseCase4PalindromeCheckerApp.java
 javac UseCase10PalindromeCheckerApp.java
 javac UseCase12PalindromeCheckerApp.java
@@ -20,6 +23,8 @@ javac UseCase13PalindromeCheckerApp.java
 ## Run
 
 ```powershell
+java UseCase1PalindromeCheckerApp
+java UseCase3PalindromeCheckerApp
 java UseCase4PalindromeCheckerApp
 java UseCase5PalindromeCheckerApp
 java UseCase6PalindromeCheckerApp
