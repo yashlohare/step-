@@ -1,6 +1,9 @@
 # Palindrome Checker App
 
-This project implements use cases `UC4` through `UC13` as console-based Java applications.
+This repository now contains multiple palindrome-related Java exercises.
+
+- Root-level files include earlier remote work such as `UC1` and `UC3`.
+- The main implementation added here covers use cases `UC4` through `UC13` in `src/`.
 
 ## Compile
 
